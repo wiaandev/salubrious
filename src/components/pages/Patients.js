@@ -155,23 +155,58 @@ const Patients = (props) => {
                 <h2 className={styles.modalHeading}>New Patient</h2>
                 <h3>Enter the details below for our new patient</h3>
                 <Input type='file' name='pfp'/>
-                <label htmlFor="name">Name</label>
-                <Input className='form-input' name='name' type='text' onChange={getTheName} defaultValue={props.defaultValue}/>
-                <label htmlFor="surname">Surname</label>
-                <Input className="form-input" name="surname" type="text" onChange={getTheSurname}/>
-                <label htmlFor="age">Age</label>
-                <Input className='form-input' name='age' type='text' onChange={getTheAge}/>
-                <select name='gender' onChange={genderVal}>
-                    {genderDrop}
-                </select>
-                <label htmlFor="email">Email</label>
-                <Input className="form-input" name="email" type="text" onChange={getTheEmail}/>
-                <label htmlFor="contact">Contact Number</label>
-                <Input className='form-input' name='contact' type='text' onChange={getTheNumber}/>
-                <label htmlFor="patientId">Patient ID</label>
-                <Input className='form-input' name='patientId' type='text' onChange={getTheId}/>
-                <label htmlFor="medicalNum">Medical Aid Number</label>
-                <Input className='form-input' name='medicalNum' type='text' onChange={getTheMedicalNum}/>
+
+                <div className={styles.flex}>
+                    <div className={styles.column}>
+                        <label htmlFor="name">Name</label>
+                        <Input className='form-input' name='name' type='text' onChange={getTheName} defaultValue={props.defaultValue}/>
+                    </div>
+
+                    <div className={styles.column}>
+                        <label htmlFor="surname">Surname</label>
+                        <Input className="form-input" name="surname" type="text" onChange={getTheSurname}/>
+                    </div>
+                </div>
+
+                <div className={styles.flex}>
+                    <div className={styles.column_age}>
+                        <label htmlFor="age">Age</label>
+                        <Input className='form-input' name='age' type='text' onChange={getTheAge}/>
+                    </div>
+
+                    <div className={styles.column}>
+                        <label htmlFor="email">Email</label>
+                        <Input className="form-input" name="email" type="text" onChange={getTheEmail}/>
+                    </div>
+
+                </div>
+
+                <div className={styles.flex}>
+                    <div className={styles.column_age}>
+                        <label htmlFor='gender'>Gender</label>
+                        <select name='gender' onChange={genderVal} className={styles.gender}>
+                            {genderDrop}
+                        </select>
+                    </div>
+                    
+                    <div className={styles.column}>
+
+                    <label htmlFor="contact">Contact Number</label>
+                    <Input className='form-input' name='contact' type='text' onChange={getTheNumber}/>
+                    </div>
+
+                </div>
+
+                <div className={styles.flex}>
+                    <div className={styles.column}>
+                        <label htmlFor="patientId">Patient ID</label>
+                        <Input className='form-input' name='patientId' type='text' onChange={getTheId}/>
+                    </div>
+                    <div className={styles.column}>
+                        <label htmlFor="medicalNum">Medical Aid Number</label>
+                        <Input className='form-input' name='medicalNum' type='text' onChange={getTheMedicalNum}/>
+                    </div>
+                </div>
                 <Button name="Save" className={styles.save} onClick={postToDb}/>
             </div>
         )

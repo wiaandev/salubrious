@@ -106,3 +106,29 @@ td{
     font-weight: lighter;
     margin-bottom: 50px;
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-right: 20px;
+}
+
+.column_age{
+    width: 10%;
+    display: flex;
+    flex-flow: column;
+    margin-right: 20px;
+}
+
+.gender{
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 20px;
+}
