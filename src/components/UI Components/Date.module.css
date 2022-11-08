@@ -1,0 +1,25 @@
+@import '../../index.css';
+
+/* Date & Time Component Styling */
+.dateTimeCom {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-light);
+    color: var(--primary-color);
+    font-family: "Montserrat", "sans-serif";
+    font-weight: lighter;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    float: left;
+}
+
+.time {
+    font-size: 24px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+  

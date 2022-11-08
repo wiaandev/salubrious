@@ -1,0 +1,95 @@
+@import '../../index.css';
+
+.registerBg{
+    background-image: url("../assets/login-bg.png");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.registerCon{
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    overflow-y: scroll;
+    /* box-shadow: 10px 12px 37px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 12px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 12px 37px 0px rgba(0,0,0,0.75); */
+}
+
+.profileUpload{
+    width: 40%;
+    text-align: center;
+}
+
+.profileUpload img {
+    border: 1px solid var(--primary-color);
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    object-fit: contain;
+
+}
+
+
+.formCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.registerImg{
+    width: 30%;
+}
+
+.registerLogo{
+    margin: 0 auto;
+}
+
+.heading{
+    margin: 0;
+}
+
+.dropDown{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+}
+
+.nameGroup{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

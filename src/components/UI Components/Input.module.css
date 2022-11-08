@@ -1,0 +1,16 @@
+@import '../../index.css';
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+
+.passIcon{
+    position: absolute;
+    right: 0;
+    margin-right: 20px !important;
+}

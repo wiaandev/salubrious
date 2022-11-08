@@ -1,0 +1,134 @@
+@import '../../index.css';
+
+.nextPrev {
+    width: 50px;
+    height: 50px;
+    color: var(--secondary-color);
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nextPrev:hover {
+    transition: 0.2s ease-in-out;
+    background-color: var(--bg-color);
+}
+  
+.monthHeadingGroup{
+    /* display: flex;
+    justify-content: space-between; */
+
+    /* margin-bottom: 10px; */
+}
+
+/* .monthYear{
+    display: flex;
+    flex-direction: column;
+} */
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width:80%;
+    margin: 0% 10% 0% 10%;
+    float: left;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.roundedXl{
+    width: 100%;
+}
+
+.calendar .day {
+    width: calc(100% / 7);
+    height: 44px;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 20px;
+}
+  
+.selected {
+    color: var(--bg-color);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+}
+
+.thisDay{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.today{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+  
+.month {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.year {
+    font-family: "Montserrat", sans-serif;
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+}
+
+.days:hover{
+    border: 2px solid rgba(38, 206, 193, 0.2);
+    border-radius: 10px;
+}
+
+.dayNameHeader {
+    background-color: var(--primary-light);
+}
+
+.notificationDot{
+    display: flex;
+    flex-direction: row;
+}
+
+.hasAppointment{
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: var(--secondary-color);
+    margin-right: 5px;
+}
+
+.dayCon{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}

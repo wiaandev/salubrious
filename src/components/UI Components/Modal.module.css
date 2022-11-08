@@ -1,0 +1,143 @@
+@import "../../index.css";
+
+/* Modal styling */
+.modal{
+    background-color: var(--bg-color);
+    float: left;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 10;
+    top: 10vh;
+    left: 25%;
+}
+
+.modalContent h2{
+    color: var(--primary-color);
+    font-size: 'Montserrat';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.modalBg{
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.updateBtn{
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.updateBtn:hover{
+    color: var(--bg-color);
+    background-color: var(--secondary-color);
+    transition: 0.2s ease-in-out;
+}
+
+
+.cancelBtn{
+    color: var(--primary-color);
+}
+
+.cancelBtn:hover{
+    text-decoration: underline;
+}
+
+.modalCon{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.modalTitle{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modalBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.modalBtns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cancel{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid var(--primary-color);
+}
+
+.cancel:hover{
+    background-color: var(--primary-color);
+    transition: 0.2s ease-in-out;
+    color: var(--bg-color);
+}
+
+.save{
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    color: var(--bg-color);
+}
+
+.save:hover{
+    background-color: var(--secondary-color);
+    transition: 0.2s ease-in-out;
+    color: var(--bg-color);
+}
+
+.closeBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.closeBtn:hover{
+    background-color: var(--primary-color);
+    color: var();
+    transition: 0.2s ease-in-out;
+}
+
+.modalInput{
+    width: 50%;
+    float: left;
+}

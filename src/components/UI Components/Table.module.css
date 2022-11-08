@@ -1,0 +1,51 @@
+@import '../../index.css';
+
+/* Table styling */
+.table{
+    width:100%;
+    background-color: var(--background-light);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    margin: 5% auto;
+}
+
+tr{
+    border-bottom: 1px solid var(--primary-light);
+}
+
+.tableImg{
+    width: 10%;
+}
+
+th{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+
+.pName{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.updateBtn{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.updateBtn:hover{
+    transition: 0.2s ease-in-out;
+    background-color: var(--secondary-color);
+}

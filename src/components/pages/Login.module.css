@@ -1,0 +1,65 @@
+@import '../../index.css';
+
+.loginBg{
+    background-image: url("../assets/login-bg.png");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.loginCon{
+    margin: 0 auto;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: 20px;
+    /* box-shadow: 10px 12px 37px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 12px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 12px 37px 0px rgba(0,0,0,0.75); */
+}
+
+
+.formCon{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formCon h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.loginImg{
+    width: 40%;
+}
+
+.loginLogo{
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: var(--primary-color);
+    font-weight: bold;
+}

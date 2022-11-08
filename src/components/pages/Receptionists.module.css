@@ -1,0 +1,79 @@
+@import '../../index.css';
+
+/* Table styling */
+.table{
+    width:90%;
+    background-color: var(--background-light);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    margin: 5% auto;
+}
+
+tr{
+    border-bottom: 5px solid var(--bg-color);
+}
+
+tr:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.tableImg{
+    width: 10%;
+}
+
+th{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+
+.pName{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.updateBtn{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.updateBtn:hover{
+    transition: 0.2s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+
+.subHeading{
+    color: var(--primary-color);
+}
+
+.aidNumber{
+    color: var(--primary-color);
+}
+
+.modalHeading{
+    font-size: 46px;
+    text-align: center;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin: 0 auto;
+    background-size:contain;
+    background-position: center;
+}
