@@ -1,12 +1,12 @@
-<!-- REPLACE ALL THE [WiaanDuvenhage-200307] TEXT WITH YOUR GITHUB PROFILE NAME & THE [salubrious] WITH THE NAME OF YOUR GITHUB PROJECT -->
+<!-- REPLACE ALL THE [wiaandev] TEXT WITH YOUR GITHUB PROFILE NAME & THE [salubrious] WITH THE NAME OF YOUR GITHUB PROJECT -->
 
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/WiaanDuvenhage-200307/salubrious)
-![GitHub watchers](https://img.shields.io/github/watchers/WiaanDuvenhage-200307/salubrious)
-![GitHub language count](https://img.shields.io/github/languages/count/WiaanDuvenhage-200307/salubrious)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/WiaanDuvenhage-200307/salubrious)
+![GitHub repo size](https://img.shields.io/github/repo-size/wiaandev/salubrious)
+![GitHub watchers](https://img.shields.io/github/watchers/wiaandev/salubrious)
+![GitHub language count](https://img.shields.io/github/languages/count/wiaandev/salubrious)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wiaandev/salubrious)
 
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Wiaan Duvenhage</h5>
@@ -15,7 +15,7 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/WiaanDuvenhage-200307/salubrious">
+  <a href="https://github.com/wiaandev/salubrious">
     <img src="src\components\assets\logo.svg" alt="Logo" width="100px">
   </a>
   
@@ -28,9 +28,9 @@
    <br />
    <a href="https://youtu.be/Oag-DdqW9jA">View Demo</a>
     ·
-    <a href="https://github.com/WiaanDuvenhage-200307/salubrious/issues">Report Bug</a>
+    <a href="https://github.com/wiaandev/salubrious/issues">Report Bug</a>
     ·
-    <a href="https://github.com/WiaanDuvenhage-200307/salubrious/issues">Request Feature</a>
+    <a href="https://github.com/wiaandev/salubrious/issues">Request Feature</a>
 </p>
 <!-- TABLE OF CONTENTS -->
 
@@ -91,13 +91,13 @@ The following instructions will get you a copy of the project up and running on 
 Here are a couple of ways to clone this repo:
 
 1.  GitHub Desktop </br>
-    Enter `https://github.com/WiaanDuvenhage-200307/salubrious.git` into the URL field and press the `Clone` button.
+    Enter `https://github.com/wiaandev/salubrious.git` into the URL field and press the `Clone` button.
 
 2.  Clone Repository </br>
     Run the following in the command-line to clone the project:
 
     ```sh
-    git clone https://github.com/WiaanDuvenhage-200307/salubrious.git
+    git clone https://github.com/wiaandev/salubrious.git
     ```
 
         Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
@@ -226,13 +226,13 @@ To see a run through of the application, click below:
 
 [View Demonstration](https://youtu.be/Oag-DdqW9jA)
 
-See the [open issues](https://github.com/WiaanDuvenhage-200307/salubrious/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/wiaandev/salubrious/issues) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 
 ## Authors
 
-- **Wiaan Duvenhage** - [Github](https://github.com/WiaanDuvenhage-200307)
+- **Wiaan Duvenhage** - [Github](https://github.com/wiaandev)
 
 <!-- LICENSE -->
 
@@ -245,7 +245,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Contact
 
 - **Wiaan Duvenhage** - [wiaanduvenhage.dev@gmail.com](mailto:wiaanduvenhage.dev@gmail.com) - [@wiaan.dev](https://www.instagram.com/wiaan.dev/)
-- **Project Link** - https://github.com/WiaanDuvenhage-200307/salubrious
+- **Project Link** - https://github.com/wiaandev/salubrious
 
 <!-- ACKNOWLEDGEMENTS -->
 
