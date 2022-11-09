@@ -39,7 +39,7 @@ const Profile = () => {
             setName(res.data[0].name);
             setRank(res.data[0].rank);
             let source = res.data[0].profile_image;
-            let renderpath = 'http://localhost/sal_db/' + source;
+            let renderpath = 'http://localhost:8888/sal_db/' + source;
             setProfileImg(renderpath);
         })
        

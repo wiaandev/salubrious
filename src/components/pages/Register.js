@@ -213,7 +213,7 @@ export default function Register() {
         if(result){
             console.log('Not working');
         } else {
-            axios.post('http://localhost/sal_db/addUser.php', inputs)
+            axios.post('http://localhost:8888/sal_db/addUser.php', inputs)
             .then(function(response){
                 console.log(response);
 

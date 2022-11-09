@@ -115,16 +115,12 @@ const AppointmentsCom = () => {
                 console.log(response);
     
                 if(response.data === true){
-                    // window.confirm("Appointment Added")
-                    // if(window.confirm === true){
-                        
-                    //     window.location.reload();
-                    // }
+                    window.location.reload();
                 } else {
                     console.log("Not working!");
                 }
+                window.location.reload();
             });
-            window.location.reload();
         }
 
     

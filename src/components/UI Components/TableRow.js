@@ -21,7 +21,7 @@ export default function TableRow(props) {
     <>
 
     <tr id={props.id}>
-        <td className={styles.tableImg}><img className={styles.circle} src={"http://localhost/sal_db/" + props.profile_image}/></td>
+        <td className={styles.tableImg}><img className={styles.circle} src={"http://localhost:8888/sal_db/" + props.profile_image}/></td>
         <td><span className={styles.pName}>{props.name + " " + props.surname}</span><br /><span className={styles.subHeading}>{props.email}</span></td>
         <td className={styles.aidNumber}>{props.rank}</td>
         <td>{props.phone_number}</td>

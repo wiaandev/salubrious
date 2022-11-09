@@ -145,7 +145,7 @@ const Patients = (props) => {
             }).catch((res) => {
                 console.log(res);
             })
-            // window.location.reload();
+            window.location.reload();
         }
 
         const genderDrop = genders.map(item => <Dropdown dropItem={item} className={styles.dropDown} name="gender"/>)

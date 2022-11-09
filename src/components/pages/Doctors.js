@@ -12,7 +12,7 @@ import Dropdown from '../UI Components/Dropdown';
 
 
 const Doctors = (props) => {
-
+    console.log(props);
     const[modalOpen , setModalOpen] = useState(false);
     const[addModal, setAddModal] = useState(false);
     const navigate = useNavigate();
@@ -122,7 +122,7 @@ const Doctors = (props) => {
         }
         
         const postToDb = () => {
-            axios.post('http://localhost/sal_db/addDoctor.php', inputs)
+            axios.post('http://localhost:8888/sal_db/addDoctor.php', inputs)
             .then(function(res){
                 const data = res.data
                 console.log(data);
@@ -175,16 +175,20 @@ const Doctors = (props) => {
     
     }
 
-    const deleteDoctor = () => {
+    const deleteDoctor = (id) => {
         const miniModal = window.confirm("You are about to delete this doctor. Are you sure?");
         if(miniModal === true){
 
-            let postId = {id: props.uniqueId}
-            axios.post('http://localhost/sal_db/deleteDoctor.php', postId)
+            let postId = {id: id} 
+            axios.post('http://localhost:8888/sal_db/deleteDoctor.php', postId)
             .then((res) => {
                 const data = res.data;
                 console.log(data);
             })
+            .catch(err => {
+                alert("there was an error");
+                console.log(err);
+            });
         }
     }
 
@@ -214,13 +218,13 @@ const Doctors = (props) => {
                         <th>DOCTOR ID</th>
                         <th>CONTACT NUMBER</th>
                     </thead>
-                    {doctors.map((item,index)=>(<tr key={index}>
+                    {doctors.map((item,index)=>(<tr key={item.id}>
                         <td className={styles.tableImg}>{item.proile_image}</td>
                         <td><span className={styles.pName}>Dr. {item.name + " " + item.surname}</span><br /><span className={styles.subHeading}>{item.specialisation}</span></td>
                         <td className={styles.aidNumber}>{item.doctor_id}</td>
                         <td>{item.phone_number}</td>
                         <td>{userId.activeUser == "jane.lambert@salubrious.co.za" ? <td><Button className={styles.updateBtn} name="UPDATE" onClick={() => {setModalOpen(true)}}/></td> : "" }</td>
-                        <td>{userId.activeUser == "jane.lambert@salubrious.co.za" ? <td><Button className={styles.updateBtn} name="DELETE" onClick={deleteDoctor}/></td> : "" }</td>
+                        <td>{userId.activeUser == "jane.lambert@salubrious.co.za" ? <td><Button className={styles.updateBtn} name="DELETE" onClick={(id) => deleteDoctor(item.id)}/></td> : "" }</td>
                     </tr>))}
                 
                 </table>

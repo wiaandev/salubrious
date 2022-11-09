@@ -90,7 +90,6 @@ const CalendarMod = () => {
                                     {format(day, 'dd')}
                                     {/* <div className={styles.notificationDot}>
                                         <div className={styles.hasAppointment}></div>
-                                        <div className={styles.hasAppointment}></div>
                                     </div> */}
                             </div>)
                         }
